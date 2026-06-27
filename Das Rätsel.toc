@@ -1,4 +1,0 @@
-\select@language {ngerman}
-\contentsline {chapter}{\numberline {1}Aufstieg der Monarchie}{4}
-\contentsline {chapter}{\numberline {2}Der erste Kontakt}{13}
-\contentsline {chapter}{\numberline {3}Nachforschungen}{26}
