@@ -1,0 +1,31 @@
+% !TeX encoding = UTF-8 Unicode
+% vim: set fileencoding=utf-8 :
+% Kapitel "Das Rätsel". Kann eigenstaendig zu einem PDF kompiliert werden
+% (pdflatex "Rätsel.tex") oder von Raumfalte.tex per \input eingebunden werden,
+% das dort direkt raetsel-inhalt.tex einbindet (Umlaut-Dateinamen sind bei
+% \input auf manchen (pdf)LaTeX-Installationen nicht zuverlaessig).
+
+\input{vorspann}
+
+\begin{document}
+
+\begin{titlepage}
+  \thispagestyle{empty}
+  \centering
+  \vspace*{0.22\textheight}
+
+  \vspace{2.5em}
+  {\huge\bfseries Das Rätsel\par}
+  \vspace{1em}
+  {\Large aus \romantitel\par}
+  \vspace{3em}
+  {\Large \romanautor\par}
+
+  \vfill
+\end{titlepage}
+
+\tableofcontents
+
+\input{raetsel-inhalt}
+
+\end{document}
